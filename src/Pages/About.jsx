@@ -7,6 +7,7 @@ import ourTeem1 from '../assets/images/team-01.jpg';
 import ourTeem2 from '../assets/images/team-02.jpg';
 import ourTeem3 from '../assets/images/team-03.jpg';
 import Banner from '../Pertials/Banner';
+import AboutContact from '../Pertials/AboutContact';
 
 function About() {
     return (
@@ -20,7 +21,7 @@ function About() {
 
 
     {/* <!-- About Us Starts Here --> */}
-    <div className="about-us">
+    <div className=" contact-us">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -29,14 +30,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="right-content">
-              <div className="section-heading">
-                <span>About Us</span>
-                <h2>Background of our company</h2>
-                <p>Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare, suscipit lobortis augue volutpat. Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh.</p>
-              </div>
-             
-            </div>
+            <AboutContact title="About Us" heading="Background of our company"/>
           </div>
         </div>
       </div>
