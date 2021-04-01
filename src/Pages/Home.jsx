@@ -170,12 +170,9 @@ function Home() {
                 </div>
             </div>
             {/* Features Ends Here  */}
-            {/* <!-- Testimonials Starts Here --> */}
+            {/*  Testimonials Starts Here  */}
             <Testimonial />
-            {/* <!-- Testimonials Ends Here --> */}
-
-
-
+            {/* Testimonials Ends Here */}
 
             {/* Footer Starts Here */}
             <Footer />
