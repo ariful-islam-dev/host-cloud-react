@@ -7,6 +7,7 @@ import '../assets/css/fontawesome.css'
 import '../assets/css/templatemo-host-cloud.css'
 import '../assets/css/flex-slider.css'
 import '../assets/css/owl.css'
+import About from "../Pages/About";
 
 
 
@@ -19,6 +20,7 @@ function App() {
          
       </Helmet>
       <Home/>
+      <About/>
 
     </div>
   );
