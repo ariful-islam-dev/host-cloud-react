@@ -6,24 +6,16 @@ import ourTeem from '../assets/images/our-team.jpg';
 import ourTeem1 from '../assets/images/team-01.jpg';
 import ourTeem2 from '../assets/images/team-02.jpg';
 import ourTeem3 from '../assets/images/team-03.jpg';
+import Banner from '../Pertials/Banner';
 
 function About() {
     return (
         <div>
                 {/* <!-- Header --> */}
-        <Header/>
+        <Header />
     {/* <!-- Page Content --> */}
     {/* <!-- Heading Starts Here --> */}
-    <div className="page-heading header-text">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <h1>About Us</h1>
-            <p><a href="index.html">Home</a> / <span>About Us</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
+        <Banner other title="About Us"/>
     {/* <!-- Heading Ends Here --> */}
 
 
